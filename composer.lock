@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a34315185456266be4a34eda5437e739",
-    "content-hash": "057a792e448c25eb9dd3ea1bb5c83b14",
+    "hash": "ecb2635649768c2513e871080e840bad",
+    "content-hash": "48a58adf4efe4fd7984f9f32e5ab22bb",
     "packages": [
         {
             "name": "composer/installers",
@@ -344,6 +344,42 @@
                 "siteconfig"
             ],
             "time": "2016-06-02 05:07:41"
+        },
+        {
+            "name": "unclecheese/betterbuttons",
+            "version": "1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
+                "reference": "92d2d60733a428143b4ad61e1d198804b0317c8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/92d2d60733a428143b4ad61e1d198804b0317c8e",
+                "reference": "92d2d60733a428143b4ad61e1d198804b0317c8e",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GNU"
+            ],
+            "authors": [
+                {
+                    "name": "Uncle Cheese",
+                    "email": "unclecheese@leftandmain.com"
+                }
+            ],
+            "description": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
+            "keywords": [
+                "buttons",
+                "gridfield",
+                "silverstripe"
+            ],
+            "time": "2016-06-30 07:56:55"
         }
     ],
     "packages-dev": [
